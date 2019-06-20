@@ -16,6 +16,7 @@ class App extends Component {
   }
 
   componentDidMount() {
+    console.log(this.props.store.getState());
     fetch('https://jsonplaceholder.typicode.com/users') //fetch is new concept built-in to browsers to handle xmlhttprequests
       .then(response => response.json() ) // return automatically implied because of being one-liner arrow function | converts to json 
       .then(robots => this.setState({ robots }));
