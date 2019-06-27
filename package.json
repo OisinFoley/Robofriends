@@ -2,9 +2,9 @@
   "name": "robofriends",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.io/OisinFoley/Robofriends",
+  "homepage": "https://OisinFoley.github.io/Robofriends",
   "dependencies": {
-    "gh-pages": "^1.2.0",
+    "gh-pages": "^1.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
