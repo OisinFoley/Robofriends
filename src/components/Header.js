@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import CounterButton from './CounterButton';
 
 /* 
   can also use PureComponent, but only does shallow dtate change check so may not always be accurate
@@ -13,7 +14,13 @@ class Header extends Component {
 
   render() {
     console.log('header component');
-    return <h1 className='f1'>Robofriends</h1>
+    return (
+      <div>
+        <h1 className='f1'>Robofriends</h1>
+        <CounterButton />
+      </div>
+    );
+
   }
 }
 
